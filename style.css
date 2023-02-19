@@ -467,10 +467,6 @@ body {
     display: grid;
     padding-bottom: 70px;
     grid-template-columns: 1fr 1fr;
-    background-image: url(imgs/chess-table.jpg), url(imgs/chess-table.jpg), url(imgs/chess-table.jpg), url(imgs/chess-table.jpg), url(imgs/chess-table.jpg), url(imgs/chess-table.jpg);
-    background-size: 50px;
-    background-repeat: no-repeat;
-    background-position: 485px 22px, 485px 173px, 485px 313px, 815px 22px, 815px 173px, 815px 313px;
   }
 
   .artist-box {
@@ -489,12 +485,26 @@ body {
     display: flex;
     justify-content: flex-end;
     width: 100%;
+    background-image: url(imgs/chess-table.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 289px 11px;
+    height: 136px;
+    align-items: flex-end;
   }
 
   .travis-scott,
   .lil-uzi-vert,
   .lil-wayne {
     margin: 40px 0 0 0;
+    background-image: url(imgs/chess-table.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 1px 11px;
+    height: 136px;
+    align-items: flex-end;
+    justify-content: center;
+    padding-left: 5px;
   }
 
   .partner {

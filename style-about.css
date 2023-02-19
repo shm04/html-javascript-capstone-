@@ -172,7 +172,7 @@ body {
 }
 
 .partner {
-  background-color: #313338;
+  background-color: #272a31;
   display: flex;
   flex-direction: column;
 }
@@ -277,7 +277,7 @@ body {
     height: 21px;
     justify-content: flex-end;
     align-items: center;
-    background-color: #3e3e3e;
+    background-color: #272a31;
   }
 
   .facebook-icon {
@@ -424,7 +424,7 @@ body {
   }
 
   .footer {
-    background-color: #313338;
+    background-color: #272a31;
     justify-content: space-around;
     align-items: center;
     height: 140px;
