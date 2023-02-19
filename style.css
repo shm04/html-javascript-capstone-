@@ -42,14 +42,14 @@ body {
   padding-top: 35px;
   font-family: "Lato", 'Courier New', Courier, monospace;
   font-weight: 500;
-  color: #ff4f38;
+  color: #ec5242;
 }
 
 .home-title {
   font-size: 33px;
   margin-bottom: 20px;
   font-family: "COCOGOOSE", 'Courier New', Courier, monospace;
-  color: #ff4f38;
+  color: #ec5242;
   font-weight: 500;
 }
 
@@ -60,7 +60,7 @@ body {
   padding: 8px;
   border: solid 2px #fff;
   font-family: "Lato", 'Courier New', Courier, monospace;
-  color: #4d4d4d;
+  color: #272a31;
   width: fit-content;
 }
 
@@ -68,21 +68,21 @@ body {
   font-size: 24px;
   margin-bottom: 10px;
   font-family: 'COCOGOOSE', 'Courier New', Courier, monospace;
-  color: #4d4d4d;
+  color: #272a31;
 }
 
 .home-ubi {
   font-size: 16px;
   padding-bottom: 65px;
   font-family: 'Lato', 'Courier New', Courier, monospace;
-  color: #4d4d4d;
+  color: #272a31;
 }
 
 .main-program {
   background-image: url(imgs/black-wallpaper.webp);
   background-repeat: no-repeat;
-  background-size: auto 500px;
-  background-position-x: -238px;
+  background-size: auto 641px;
+  background-position-x: -350px;
   display: flex;
   flex-direction: column;
 }
@@ -99,7 +99,7 @@ body {
 .span-red {
   height: 2px;
   width: 45px;
-  background-color: #ff4f38;
+  background-color: #ec5242;
   display: block;
   margin: 15px 0 25px 0;
   align-self: center;
@@ -107,7 +107,9 @@ body {
 
 .day-one,
 .day-two,
-.day-three {
+.day-three,
+.day-after,
+.day-previous {
   color: #fff;
   display: flex;
   margin: 0 15px 10px 15px;
@@ -136,7 +138,7 @@ body {
 
 .buy-tickets {
   align-self: center;
-  background-color: #ff4f38;
+  background-color: #ec5242;
   width: 265px;
   height: 60px;
   margin: 25px 40px 45px 40px;
@@ -278,6 +280,10 @@ body {
   flex-direction: column;
 }
 
+.see-whole-program {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background-size: 2013px auto;
@@ -293,7 +299,7 @@ body {
     height: 21px;
     justify-content: flex-end;
     align-items: center;
-    background-color: #3e3e3e;
+    background-color: #272a31;
   }
 
   .facebook-icon {
@@ -348,6 +354,10 @@ body {
     font-family: 'Lato', 'Courier New', Courier, monospace;
     font-size: 14px;
     margin-bottom: 0;
+  }
+
+  .sec-navbar:hover {
+    color: #ec5242;
   }
 
   .campaign-navbar {
@@ -409,12 +419,31 @@ body {
 
   .day-one,
   .day-two,
-  .day-three {
+  .day-three,
+  .day-after,
+  .day-previous {
     margin: 0 1px 10px 1px;
     flex-direction: column;
     padding: 13px;
     justify-content: flex-start;
     text-align: center;
+  }
+
+  .day-one:hover,
+  .day-two:hover,
+  .day-three:hover,
+  .day-after:hover,
+  .day-previous:hover {
+    border: solid 1px #fff;
+  }
+
+  .see-whole-program {
+    display: flex;
+    color: #fff;
+    align-self: center;
+    font-family: 'Lato', 'Courier New', Courier, monospace;
+    font-size: 13px;
+    margin: 40px 0 60px 0;
   }
 
   .program-subtitle {
@@ -427,6 +456,7 @@ body {
 
   .buy-tickets {
     margin-bottom: 70px;
+    display: none;
   }
 
   .featured-artists {
@@ -437,6 +467,10 @@ body {
     display: grid;
     padding-bottom: 70px;
     grid-template-columns: 1fr 1fr;
+    background-image: url(imgs/chess-table.jpg), url(imgs/chess-table.jpg), url(imgs/chess-table.jpg), url(imgs/chess-table.jpg), url(imgs/chess-table.jpg), url(imgs/chess-table.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 485px 22px, 485px 173px, 485px 313px, 815px 22px, 815px 173px, 815px 313px;
   }
 
   .artist-box {
@@ -466,7 +500,7 @@ body {
   .partner {
     display: flex;
     flex-direction: column;
-    background-color: #313338;
+    background-color: #272a31;
   }
 
   .partner-title {
@@ -492,7 +526,7 @@ body {
 
   .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 155px;
   }

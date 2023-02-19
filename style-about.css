@@ -334,6 +334,10 @@ body {
     margin-bottom: 0;
   }
 
+  .sec-navbar:hover {
+    color: #ec5242;
+  }
+
   .campaign-navbar {
     margin: 0 124px 0 10px;
     text-decoration: none;
@@ -421,7 +425,7 @@ body {
 
   .footer {
     background-color: #313338;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 140px;
   }
