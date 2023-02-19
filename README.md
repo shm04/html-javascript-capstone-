@@ -23,7 +23,8 @@
 
 This is my first capstone project.
 
-**First capstone project** is a web page where you can find information about Rollind Loud Festival.
+**First capstone project** is a web page where you can find information about Rollind Loud Festival.<br>
+In [this video](https://www.loom.com/share/7a0d49f520594517a0023d5b2aeeb5c9) you can find more information about this project. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,7 +50,7 @@ This is my first capstone project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://shm04.github.io/first-capstone/)
+- [Live Demo Link](https://shm04.github.io/html-javascript-capstone-/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,7 +69,7 @@ Your web browser
 Clone this repository to your desired folder:
 
   ``cd my-folder
-  git clone git@github.com:shm04/first-capstone.git
+  git clone git@github.com:shm04/html-javascript-capstone-.git
 
 ### Install
 
@@ -140,5 +141,7 @@ I would like to thank Microverse community.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](LICENSE.md) licensed.
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
